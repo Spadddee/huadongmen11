@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>刘垚</title>
+    <style>
+        .chujihezi{
+            width: 700px;
+            height: 200px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+        .chujiliebiao{
+            padding: 0;
+        }
+        .chujiliebiao>li{
+            list-style: none;
+            position: relative;
+            margin: 15px 3px;
+            width: 70px;
+            height: 40px;
+            background-color: #ffb6b6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 3px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+        .erjihezi{
+            position: absolute;
+            left: 85px;
+            width: 220px;
+            height: 40px;
+            background-color: #f7d5d5;
+            border-radius: 5px;
+            display: none;
+        }
+        .erjiliebiao{
+            padding: 0px;
+        }
+        .erjiliebiao>li{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            float: left;
+            list-style: none;
+            margin: 5px;
+        }
+        .chujiliebiao>li:hover>.erjihezi{
+            display: block;
+        }
+    </style>
+</head>
+    <div class="chujihezi">
+        <ul class="chujiliebiao">
+            <li>
+                <a href="#">娱乐</a>
+                <div class="erjihezi">
+                    <ul class="erjiliebiao">
+                        <li><a href="#">综艺</a></li>
+                        <li><a href="#">电影</a></li>
+                        <li><a href="#">电视剧</a></li>
+                        <li><a href="#">游戏</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">科技</a>
+                <div class="erjihezi">
+                    <ul class="erjiliebiao">
+                        <li><a href="#">数码</a></li>
+                        <li><a href="#">手机</a></li>
+                        <li><a href="#">电脑</a></li>
+                        <li><a href="#">笔记本</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">美食</a>
+                <div class="erjihezi">
+                    <ul class="erjiliebiao">
+                        <li><a href="#">小吃</a></li>
+                        <li><a href="#">甜品</a></li>
+                        <li><a href="#">烧烤</a></li>
+                        <li><a href="#">特产</a></li>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
